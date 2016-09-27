@@ -25,10 +25,7 @@
       "defaultValue": "7.2",
       "allowedValues": [
         "7.2",
-        "7.1",
-        "6.8",
-        "6.7",
-        "6.6"
+        "6.7"
       ],
       "metadata": {
         "description": "The CentOS version for the VM. This will pick the latest available image of this given CentOS version."
@@ -49,7 +46,8 @@
     "publicIPAddressName": "myPublicIP",
     "publicIPAddressType": "Dynamic",
     "vmStorageAccountContainerName": "vhds",
-    "vmName": "MyRHELVM",
+    "adminUsername": "[parameters('adminUsername')]",
+    "vmName": "[parameters('vmName')]",
     "vmSize": "Standard_D1",
     "virtualNetworkName": "MyVNET",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('virtualNetworkName'))]",
