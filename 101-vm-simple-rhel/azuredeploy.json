@@ -25,7 +25,12 @@
       "defaultValue": "7.2",
       "allowedValues": [
         "7.2",
-        "6.7"
+        "7.1",
+        "7.0",
+        "6.8",
+        "6.7",
+        "6.6",
+        "6.5"
       ],
       "metadata": {
         "description": "The CentOS version for the VM. This will pick the latest available image of this given CentOS version."
@@ -142,7 +147,7 @@
           "imageReference": {
             "publisher": "[variables('imagePublisher')]",
             "offer": "[variables('imageOffer')]",
-            "sku": "[parameters('rhelOSVersion')]",
+            "sku": "[parameters('CentOSOSVersion')]",
             "version": "latest"
           },
           "osDisk": {
