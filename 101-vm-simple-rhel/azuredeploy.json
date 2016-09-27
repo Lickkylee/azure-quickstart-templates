@@ -14,12 +14,21 @@
         "description": "Password for the Virtual Machine."
       }
     },
+    "vmName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name for the Virtual Machine."
+      }
+    }
     "rhelOSVersion": {
       "type": "string",
       "defaultValue": "7.2",
       "allowedValues": [
         "7.2",
-        "6.7"
+        "7.1",
+        "6.8",
+        "6.7",
+        "6.6"
       ],
       "metadata": {
         "description": "The RHEL version for the VM. This will pick the latest available image of this given RHEL version."
