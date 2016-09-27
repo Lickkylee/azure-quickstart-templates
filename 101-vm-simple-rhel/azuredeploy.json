@@ -19,8 +19,8 @@
       "metadata": {
         "description": "Name for the Virtual Machine."
       }
-    }
-    "rhelOSVersion": {
+    },
+    "CentOSOSVersion": {
       "type": "string",
       "defaultValue": "7.2",
       "allowedValues": [
@@ -31,7 +31,7 @@
         "6.6"
       ],
       "metadata": {
-        "description": "The RHEL version for the VM. This will pick the latest available image of this given RHEL version."
+        "description": "The CentOS version for the VM. This will pick the latest available image of this given CentOS version."
       }
     }
   },
