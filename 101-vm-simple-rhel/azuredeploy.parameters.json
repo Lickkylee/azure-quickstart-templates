@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "GEN-USER"
+      "value": "qli01"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "Password01!"
     },
     "rhelOSVersion": {
       "value": "7.2"
