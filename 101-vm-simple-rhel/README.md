@@ -7,4 +7,4 @@
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
-
+This template will build a CentOS Linux on Azure China Cloud. 
