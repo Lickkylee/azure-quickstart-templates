@@ -1,5 +1,5 @@
 {
-  "itemDisplayName": "Red Hat Enterprise Linux VM (RHEL 7.2 or RHEL 6.7)",
+  "itemDisplayName": "Centos Linux VM ",
   "description": "This template will deploy a CentOS Linux VM , using the published CentOS VM image for the selected version on Standard A1 VM in the location of your chosen resource group with an additional 100 GiB data disk attached to the VM. ",
   "summary": "This template will deploy CentOS Linux VM",
   "githubUsername": "LickkyLee",
